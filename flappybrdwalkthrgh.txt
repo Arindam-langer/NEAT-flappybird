@@ -1,0 +1,41 @@
+ i created this ai that plays flappy bird using NEAT python module.
+ the main modules it used were:
+ 1.pygame: reason("to make the flappy bird game") 
+ 2.NEAT-python: reason("to make an algorithm to beat flappy bird)
+
+
+ NEAT-python(NeuroEvolution of Augmenting Topologies) is a artificial neural network that only uses basic pyhton module
+ to write code
+                                            #///   use it after    ////#
+First, we need to import all necessary libraries and functions from them.
+i import pygame for a graphical interface in which the ai will play
+and imported NEAT for making a model for ai that will learn to beat flappy bird
+
+BASIC theory
+
+
+basic method of beating the game through the neural network is by making the bird not touch any pipes 
+and pass through them using ai. The major factor that will affect the bird is gravity. we have to keep the bird in air 
+and space so that it passes through those pipes again and again.
+
+To make a model we First have to we need to see the input layer:
+input that the ai should take. i think three things should be considered
+1. the bird     2.the upper pipe    3. lower pipes
+now consider the whole game in x,y axis. Since we don't need to take account of x axis we will use y axis. y-axis
+will make the bird go up and down and give data to output layer.The output layer will only have an output to whether jump or not.
+
+the connection between input layer and output layer will be by connection of bird with upper pipe and lower pipe
+and the number gravity we need to pass through every pipe. basically the ai will tweak the gravity to give the chance to beat the game
+and gravity can be considered a formula of sum of position of the bird in the grid, which can be call weight and a bias which can a value 
+which we tweak in the formula to make the bird go up and down. then the answer provided will be compared to the answer and the si will
+tweak the formula according to it until we get an answer.since we can't find the answer very easily. that's where we use NEAT
+
+neat is a evolutionary model meaning it uses evolution to bypass any problem. to make it work we will use many birds and select the
+birds by how much they progessed and select the birds that are the best and breed them and mutate them to make a new set of birds that
+will again be put to test and breed them continously until we have the optimal bird for the solution. in brief, we can say that neat
+uses reinforced machine learning method.
+
+to get any doubts resolved please use this link =>> https://neat-python.readthedocs.io/en/latest/ to learn about NEAT
+
+
+
