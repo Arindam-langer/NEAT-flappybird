@@ -37,5 +37,25 @@ uses reinforced machine learning method.
 
 to get any doubts resolved please use this link =>> https://neat-python.readthedocs.io/en/latest/ to learn about NEAT
 
+                                        RUNTHOUGH
+
+First, we need to import all necessary libraries and functions from them.
+i imported pygame for a graphical interface in which the ai will play
+and imported NEAT for making a model for ai that will learn to beat flappy bird
+
+ i used pygame.innit to  initialize various modules and prepare the Pygame framework for game
+
+ then i loaded the images
+
+ i took the obect oriented apprach and uses classes which divided the work in the game to 3 components
+ 1. bird    2. pipes    3.base
+
+ in bird class i initialized various methods so that the bird can be drawn jumped and moved. it was same for the pipes
+and base
+
+some other function that were made were to draw window for the game
+
+
+in the main rather than birds list of birds were used 
 
 
