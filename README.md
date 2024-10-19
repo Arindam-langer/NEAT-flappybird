@@ -10,11 +10,12 @@ Here're some of the project's best features:
 
 *   game was made from scratch
 *   it used reinforced ml
-*   to learn more please read walkthrough.txt
+*   to learn more please read the [neat-python](https://neat-python.readthedocs.io/en/latest/)
+*   fot the demo view [video-demo](https://vimeo.com/1020295693)
 
 <h2>🍰 Contribution Guidelines:</h2>
 
-solo project with inspiration from code bullet.' to use this code just copy the flappybrd.py and configfile.txt to your device and just run the flappy bird program.
+solo project with inspiration from code bullet.' to use this code just copy the flappybrd.py and configfile.txt and the images to your device and just run the flappy bird program.
 
   
   
